@@ -86,18 +86,16 @@ The workflow implemented in this project consists of the following steps:
 ## 4. Repository Structure
 
 The repository is organised to clearly separate analysis, code, and documentation:
-- notebooks/
+- notebooks :
 Contains the main Jupyter notebook used for the project.
 This notebook includes the complete workflow: data access, preprocessing, temporal matching, analysis, and visualisation of IASI and radiosonde water vapour profiles.
-- README.md
+- README.md :
 Provides an overview of the project, datasets used, methodology, repository organisation, and instructions for reproducibility.
-- .gitignore
+- .gitignore :
 Ensures that large data files, credentials, and temporary outputs are excluded from version control.
-- outputs
+- outputs :
 It includes output such as figures obtained during results.
-- data
-- Radiosonde data loaded from NetCDF file  (`rs_iop4h2o.nc`)
-- IASI products queried and downloaded via EUMETSAT API 
+- data : Radiosonde data loaded from NetCDF file  (`rs_iop4h2o.nc`) and IASI products queried and downloaded via EUMETSAT API 
 
 ---
  
