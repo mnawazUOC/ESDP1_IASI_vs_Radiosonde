@@ -95,15 +95,17 @@ Provides an overview of the project, datasets used, methodology, repository orga
 Ensures that large data files, credentials, and temporary outputs are excluded from version control.
 - outputs :
 It includes output such as figures obtained during results.
-- data : Radiosonde data loaded from NetCDF file  (`rs_iop4h2o.nc`) and IASI products queried and downloaded via EUMETSAT API 
+- data : Radiosonde data loaded from NetCDF file  (`rs_iop4h2o.nc`) and IASI products queried and downloaded via EUMETSAT API (Note: IASI downloaded files are not included in the folder due to size constraints)
 
+Note: IASI downloaded files are not included in the folder due to size constraints
 ---
  
 ## 5. Data Availability
  
 - Radiosonde data loaded from NetCDF file  (`rs_iop4h2o.nc`)
 - IASI products queried and downloaded via EUMETSAT API 
- 
+
+ Note: IASI downloaded files are not included in the folder due to size constraints
 ---
  
 ## 6. Key Findings (Summary)
